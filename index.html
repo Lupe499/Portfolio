@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfoilo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+
+    <div id="burger"><i class="fas fa-bars"></i></div>
+
+    <nav id="menu">
+        <ul>
+            <li><a class="current" href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a href="om-mig.html">OM MIG</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <h1>Lucas Pedersens Portfoilo</h1>
+
+</header>
+<main>
+    <section class="top-section">
+        <div class="text">
+            <h2>Velkommen</h2>
+            <p>Her forkalre jeg kort hvad du kan se her på min hjemmeside.<br>
+                Her kan du se alle mine “store” projekter som har har lavet på GrundForløb 2 og på Hovedforløbet som foreksempel et lille browser spil, et film site og mange flere. Der er også et lille resyme af hvad jeg har lært når man snakker om HTML, CSS og Javascript.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/laptop.png" alt="laptop">
+        </div>
+    </section>
+    <section id="card-section">
+        <div class="grid">
+            <div class="card bg_slider">
+                <i class="fab fa-html5"></i>
+                <p>I HTML5 har jeg lært en masse om de forskelige måder at sætte kode op på og at bruge de rigtige tags i forhold til hvor på siden elementet skal være.</p>
+            </div>
+            <div class="card bg_slider">
+                <i class="fab fa-js-square"></i>
+                <p>Javascript har været noget svære at lære men nu kan jeg alt fra at lave et simpelt browser spil lige til gallerier, burger menuer og validering. Jeg har også lært noget jQuery. Jeg har også lært at bruge json filer til at få foreksempel produkter vist på hjemmesiden, jeg har også lært at lave søgefunktioner og hvordan man bruger api's</p>
+            </div>
+            <div class="card bg_slider">
+                <i class="fab fa-html5"></i>
+                <p>I CSS har jeg lært en masse om hvor dan man sætte en side op med både flex box og grids, jeg har også lært at lave transitions, hover og en masse andet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gallery">
+        <div class="gallery">
+            <a href="projekter.html"><img id="main-img" src="images/your-name-gallery.jpg" alt="titanfall"></a>
+            <i id="right" class="fas fa-arrow-right arrow"></i>
+            <i id="left" class="fas fa-arrow-left arrow"></i>
+        </div>
+    </section>
+</main>
+    
+<footer>
+    <nav>
+        <ul>
+            <li><a class="current" href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a href="om-mig.html">OM MIG</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+</footer>
+    
+</div> <!-- end wrapper -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>

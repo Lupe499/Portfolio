@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfoilo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+
+    <div id="burger"><i class="fas fa-bars"></i></div>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a class="current" href="om-mig.html">OM MIG</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <h1>OM MIG</h1>
+
+</header>
+<main>
+    <section class="top-section blue">
+        <div class="text-about">
+            <div class="me">
+                <img src="images/about.jpeg" alt="mig">
+            </div>
+            <div class="about-me">
+                <h2>Hvem er jeg?</h2>
+                <p>Mit navn er Lucas Pedersen, jeg er en 18 år gammel og går på Rosklide teknisk skole på webudvikler uddannelsen.
+                    Før jeg kom til Roskilde Tekniske Skole har jeg gået på NEXT hvor jeg tog Grundforløb 1 og 2, jeg har også været på Ny Hollænderskolen og på Holte Hus. Jeg gik på Ny Hollænder i 10 år fra 0.klasse-9. også tog jeg på efter skole i et år.<br>Jeg har været i praktik i både 8.klasse og to gange på Grundforløb 1.
+                </p>
+                <p id="readmore">Læs mere <i class="fas fa-arrow-down"></i></p>
+            </div>
+            <div class="hide">
+                <div class="hide-div">
+                    <h3>Hvad jeg vil efter Hovedforløbet</h3>
+                    <p>Jeg kunne godt tænke mig at komme op på arbejde market og se hvordan man arbejder i en virksomhed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="block">
+        <h4>KONTAKT MIG</h4>
+            <form name="myForm" id="form" onsubmit="return validateForm()">
+                <div id="myform">
+                    <p id="indtaste-email">EMAIL*</p> <p id="wrong" class="indtast">Du har intastet en falsk email</p>
+                    <input type="text" id="email" name="femail">
+                    <div class="grid-form">
+                        <div>
+                            <p id="indtaste-navn">FORNAVN*</p>
+                            <input type="text" id="fornavn" name="fname">
+                        </div>
+                        <div>
+                            <p>EFTERNAVN</p>
+                            <input type="text" id="efternavn" name="lastname">
+                        </div>
+                    </div>
+                    <p id="indtaste-besked">BESKED*</p>
+                    <input type="text" id="besked"  name="fbesked">
+                    <input type="submit" id="bg_slider-send" class="send" value="SEND">
+                </div>
+            </form>
+    </section>
+</main>
+    
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a class="current" href="om-mig.html">OM MIG</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+</footer>
+    
+</div> <!-- end wrapper -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>

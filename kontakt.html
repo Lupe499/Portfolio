@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfoilo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+
+    <div id="burger"><i class="fas fa-bars"></i></div>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a href="om-mig.html">OM MIG</a></li>
+            <li><a class="current" href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <h1>KONTAKT</h1>
+
+</header>
+<main>
+    <section id="small">
+        <h4>KONTAKT MIG</h4>
+            <form name="myForm" id="form" onsubmit="return validateForm()">
+                <div id="myform">
+                    <p id="indtaste-email">EMAIL*</p> <p id="wrong" class="indtast">Du har intastet en falsk email</p>
+                    <input type="text" id="email" name="femail">
+                    <div class="grid-form">
+                        <div>
+                            <p id="indtaste-navn">FORNAVN*</p>
+                            <input type="text" id="fornavn" name="fname">
+                        </div>
+                        <div>
+                            <p>EFTERNAVN</p>
+                            <input type="text" id="efternavn" name="lastname">
+                        </div>
+                    </div>
+                    <p id="indtaste-besked">BESKED*</p>
+                    <input type="text" id="besked"  name="fbesked">
+                    <input type="submit" id="bg_slider-send" class="send" value="SEND">
+                </div>
+            </form>
+            <h2 id="contact">ANDRE MÅDER AT KONTAKT MIG PÅ</h2>
+            <div class="links">
+                <a target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> Kontakt mig på linkedin</a>
+                <p><i class="fas fa-phone"></i> +45 42 55 82 27</p>
+                <a target="_blank" href="https://www.google.dk/maps/place/Bakkeg%C3%A5rds+Alle+10,+1804+Frederiksberg/@55.669811,12.5297544,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539750a30cbb:0x1b10f91bcc1a8421!8m2!3d55.669811!4d12.531943"><i class="fas fa-location-arrow"></i> Bakkegårds Alle 10, 1804 Frederiksberg</a>
+            </div>
+    </section>
+</main>
+    
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">HJEM</a></li>
+            <li><a href="projekter.html">PROJEKTER</a></li>
+            <li><a href="om-mig.html">OM MIG</a></li>
+            <li><a class="current" href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+</footer>
+    
+</div> <!-- end wrapper -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
