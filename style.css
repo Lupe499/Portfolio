@@ -78,13 +78,13 @@ nav ul{
 }
 nav a{
     text-decoration:none;
-    color:#FC4A56;
+    color:#4a97fc;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 20px;
 }
 .current{
-    border-bottom: solid 5px #FC4A56;
+    border-bottom: solid 5px #4a97fc;
 }
 main{
     margin:2em 0; 
@@ -281,7 +281,7 @@ form p{
     display: block;
     margin-left: 67%;
     margin-top: 2em;
-    background-color: #FC4A56;
+    background-color: #4a97fc;
     padding: 2% 8%;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
@@ -331,8 +331,8 @@ form p{
 #bg_slider-send {
     background-position: -30%;
     background-image: linear-gradient(-40deg,
-        #FC4A56 0%,
-        #FC4A56 50%,
+        #4a97fc 0%,
+        #4a97fc 50%,
         #ECE8E1 50%,
         #ECE8E1 100%);
     background-size: 600%;
@@ -340,7 +340,7 @@ form p{
 }
 
 #bg_slider-send:hover {
-    color: #FC4A56;
+    color: #4a97fc;
     cursor: pointer;
     background-position: -110% 100%;
 }
@@ -348,7 +348,7 @@ form p{
 /* --------------------------------------------burgermenu----------------------------------------------------- */
 #burger{
     display: none;
-    color: #FC4A56;
+    color: #4a97fc;
     font-size: 30px;
 }
 
